@@ -1,0 +1,22 @@
+{
+    "name": "insomnia",
+    "version": "0.0.0",
+    "description": "WebVR world to get lost in!",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "live-server .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Webvr",
+        "A-Frame",
+        "Three.JS",
+        "VR",
+        "World"
+    ],
+    "author": "Subbu Alagappan <s@subbu.dev>",
+    "license": "MIT",
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    }
+}
