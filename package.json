@@ -2,10 +2,10 @@
     "name": "insomnia",
     "version": "0.0.0",
     "description": "WebVR world to get lost in!",
-    "main": "dist/index.js",
+    "main": "dist/index.html",
     "scripts": {
-        "start": "live-server .",
-	"build": "tsc",
+        "start": "parcel serve index.html",
+        "build": "parcel build index.html",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
@@ -19,6 +19,7 @@
     "license": "MIT",
     "devDependencies": {
         "live-server": "^1.2.1",
+        "parcel": "^2.0.0-beta.3.1",
         "typescript": "^4.2.4"
     }
 }
