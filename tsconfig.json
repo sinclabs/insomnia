@@ -16,7 +16,7 @@
     "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,                           /* Skip type checking of declaration files. */
-    "forceConsistentCasingInFileNames": true        /* Disallow inconsistently-cased references to the same file. */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   }
 }

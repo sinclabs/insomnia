@@ -17,7 +17,7 @@ function createRandomCylinders() {
         cylinders.push({
             name: "a-cylinder",
             components: {
-                position: `${getRandomFloat(40)} ${getRandomFloat(0.5)} ${getRandomFloat(30)}`,
+                position: `${getRandomFloat(40)} ${getRandomFloat(0.5)} ${getRandomFloat(40)}`,
                 radius: getRandomFloat(1),
                 height: getRandomFloat(50),
                 color: "#FFC65D",
