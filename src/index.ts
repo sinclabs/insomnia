@@ -1,11 +1,11 @@
 import { createEntity } from "./aframe";
 import { 
-    getRandomFloat,
+    getRandomArbitrary,
     getRandomInt 
 } from "./utils";
 
 function createRandomCylinders() {
-    const numberOfCylinders = getRandomInt(100)
+    const numberOfCylinders = getRandomInt(50, 100)
     const cylinders: Array<{
         name: "a-cylinder",
         components: {
@@ -17,9 +17,9 @@ function createRandomCylinders() {
         cylinders.push({
             name: "a-cylinder",
             components: {
-                position: `${getRandomFloat(40)} ${getRandomFloat(0.5)} ${getRandomFloat(40)}`,
-                radius: getRandomFloat(1),
-                height: getRandomFloat(50),
+                position: `${getRandomArbitrary(-40, 40)} ${getRandomArbitrary(-0.5, 0.5)} ${getRandomArbitrary(-40, 40)}`,
+                radius: getRandomArbitrary(1, 1.5),
+                height: getRandomArbitrary(30, 50),
                 color: "#FFC65D",
                 shadow: true
             }
