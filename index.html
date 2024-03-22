@@ -11,8 +11,15 @@
 
 <body>
 
-    <a-scene></a-scene>
-    <script src="src/index.ts"></script>
+    <a-scene style="background-color: #3b3b3b;">
+        <a-assets>
+            <a-asset-item id="landscape-obj" src="landscape.obj"></a-asset-item>
+            <a-asset-item id="landscape-mtl" src="landscape.mtl"></a-asset-item>
+          </a-assets>
+        
+          <a-obj-model src="#landscape-obj" mtl="#landscape-mtl"></a-obj-model>
+    </a-scene>
+    <!-- <script type="module" src="src/index.ts"></script> -->
 </body>
 
 </html>

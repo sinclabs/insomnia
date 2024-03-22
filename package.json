@@ -2,7 +2,6 @@
     "name": "insomnia",
     "version": "0.0.0",
     "description": "WebVR world to get lost in!",
-    "main": "dist/index.html",
     "scripts": {
         "start": "parcel serve index.html",
         "build": "parcel build index.html",
@@ -18,8 +17,10 @@
     "author": "Subbu Alagappan <s@subbu.dev>",
     "license": "MIT",
     "devDependencies": {
-        "live-server": "^1.2.1",
+        "@parcel/config-default": "^2.9.3",
+        "live-server": "^1.1.0",
         "parcel": "^2.0.0-beta.3.1",
+        "parcel-reporter-static-files-copy": "^1.5.0",
         "typescript": "^4.2.4"
     }
 }
